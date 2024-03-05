@@ -1,3 +1,4 @@
+"""
 # ejemplo de inicialización de todos los tipos de elementos en python
 
 # Inicializar variables
@@ -32,6 +33,7 @@ print("i=", i, type(i))
 j = h
 print("j=", j, type(j))
 
+
 # Imprimir tipos de variables
 print("\nTipos de variables")
 print(type(a))
@@ -44,3 +46,17 @@ print(type(g))
 print(type(h))
 print(type(i))
 print(type(j))
+
+"""
+
+# Diapositiva 2.4.1.6
+a = 3.0
+b = 4.0
+c = (a**2 + b**2) ** 0.5
+print("c=", c)
+
+# Diapositiva 2.4.1.7
+juan = 3
+maria = 5
+adan = 6
+print("Juan=", juan, "Maria=", maria, "Adan=", adan)
