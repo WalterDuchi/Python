@@ -98,3 +98,12 @@ print(meses, "meses es igual a", horas, "horas")
 galones = 2
 onzas = galones * 128
 print(galones, "galones es igual a", onzas, "onzas")
+
+# convertir pies a metros
+a = float(input("Ingrese un valor para a: "))
+b = float(input("Ingrese un valor para b: "))
+print("a+b=", a + b)
+print("a-b=", a - b)
+print("a*b=", a * b)
+print("a/b=", a / b)
+print("\nEso es todo, amigos!")
