@@ -49,7 +49,7 @@ print(type(j))
 
 """
 
-# Diapositiva 2.4.1.6
+"""# Diapositiva 2.4.1.6
 a = 3.0
 b = 4.0
 c = (a**2 + b**2) ** 0.5
@@ -61,9 +61,9 @@ maria = 5
 adan = 6
 print("Juan=", str(juan), "Maria=", str(maria), "Adan=", str(adan))
 print("Juan=%d Maria=%d Adan=%d" % (juan, maria, adan))
-"""
+
 print("Juan=" + juan.__str__() + " Maria=" + maria.__str__())
-"""
+
 print("Juan={}, Maria={}, Adan={}".format(juan, maria, adan))
 print(f"Juan={juan} Maria={maria} Adan={adan}")
 
@@ -107,3 +107,9 @@ print("a-b=", a - b)
 print("a*b=", a * b)
 print("a/b=", a / b)
 print("\nEso es todo, amigos!")
+"""
+
+# Diapositiva 2.6.1.10
+x = float(input("Ingrese un valor para x: "))
+y = 1 / (x + 1 / (x + 1 / (x + 1 / x)))
+print("y=", y)
