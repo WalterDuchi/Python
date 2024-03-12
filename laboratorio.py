@@ -1,9 +1,6 @@
-palabraSecreta = "chupacabra"
+user_word = input("Ingrese una palabra: ")
 
-while True:
-    palabra = input("Introduce la palabra secreta: ")
-    if palabra == palabraSecreta:
-        print("¡Felicidades! Has adivinado la palabra secreta.")
-        break
-    else:
-        print("¡Inténtalo de nuevo!")
+for letter in user_word:
+    if letter in "aeiou":
+        user_word = user_word.replace(letter, "")
+print(user_word)
