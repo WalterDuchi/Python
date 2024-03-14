@@ -1,10 +1,11 @@
-blocks = int(input("Ingrese el número de bloques: "))
+def collatz(n):
+    while n != 1:
+        print(n)
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = n * 3 + 1
+    print(n)
 
-altura = 0
-i = 1
-while i <= blocks:  # Mientras que i sea menor o igual a blocks
-    blocks -= i  # Restamos i a blocks
-    i += 1  # Aumentamos i en 1
-    altura += 1  # Aumentamos la altura en 1
 
-print("La altura de la pirámide:", altura)
+collatz(1023)
