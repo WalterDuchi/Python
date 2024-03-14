@@ -1,11 +1,5 @@
-def collatz(n):
-    while n != 1:
-        print(n)
-        if n % 2 == 0:
-            n = n // 2
-        else:
-            n = n * 3 + 1
-    print(n)
-
-
-collatz(1023)
+var = 17
+var_right = var >> 1  # 17 / 2 = 8.5
+var_left = var << 2  # 17 * 2^2 = 68
+print(var_right)
+print(var_left)
