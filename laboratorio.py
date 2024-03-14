@@ -1,5 +1,8 @@
-var = 17
-var_right = var >> 1  # 17 / 2 = 8.5
-var_left = var << 2  # 17 * 2^2 = 68
-print(var_right)
-print(var_left)
+variable_1 = 1
+variable_2 = 2
+
+print(variable_1, variable_2)
+
+variable_1, variable_2 = variable_2, variable_1
+
+print(variable_1, variable_2)
