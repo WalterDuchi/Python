@@ -1,10 +1,10 @@
-user_word = input("Ingrese una palabra: ")
+blocks = int(input("Ingrese el número de bloques: "))
 
-for letter in user_word:  # recorrer la palabra ingresada
-    if letter in "aeiou":  # si la letra es una vocal
-        user_word = user_word.replace(
-            letter, ""
-        )  # reemplazar la vocal por un espacio vacio
+altura = 0
+i = 1
+while i <= blocks:  # Mientras que i sea menor o igual a blocks
+    blocks -= i  # Restamos i a blocks
+    i += 1  # Aumentamos i en 1
+    altura += 1  # Aumentamos la altura en 1
 
-# imprimir la palabra sin vocales con mayusculas
-print(user_word.upper())
+print("La altura de la pirámide:", altura)
